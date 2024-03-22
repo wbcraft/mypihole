@@ -1,3 +1,5 @@
+#  Right now this only works on Debian based OS's due to a UID conflict on Fedora.
+
 #  CONFIGURE:
 #  add/uncomment the following to /etc/apt/sources.list.d/raspi.list
 
