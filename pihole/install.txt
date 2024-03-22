@@ -1,5 +1,5 @@
 #  CONFIGURE:
-#  add the following to /etc/apt/sources.list.d/raspi.list
+#  add/uncomment the following to /etc/apt/sources.list.d/raspi.list
 
 deb http://archive.raspberrypi.com/debian/ bookworm main
 deb-src http://archive.raspberrypi.com/debian/ bookworm main
