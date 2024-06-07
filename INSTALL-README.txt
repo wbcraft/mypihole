@@ -16,8 +16,9 @@ deb-src http://archive.raspbian.org/raspbian bookworm main contrib non-free
 
 
 #  INSTALL:
+#  UPDATE YOUR JUNK!!!
 
- sudo apt-get update
+ sudo apt-get update && sudo apt-get upgrade -y
  sudo apt-get install ca-certificates curl
  sudo install -m 0755 -d /etc/apt/keyrings
  sudo curl -fsSL https://download.docker.com/linux/raspbian/gpg -o /etc/apt/keyrings/docker.asc
