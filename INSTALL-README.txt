@@ -32,7 +32,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 #  POST INSTALL:
 #  Add your username to the docker group by using the following command:
-#  sudo usermod -aG docker <yourusername>
+sudo usermod -aG docker <yourusername>
 #  Eh, just reboot after this.  Or logout and login.  Either way.
 
 
