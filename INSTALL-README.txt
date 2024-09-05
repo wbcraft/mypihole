@@ -42,6 +42,11 @@ cd mypihole
 
 docker compose up -d
 
+#  If you want to update pihole:
+#  chmod +x update_pihole.sh
+./update_pihole.sh
+
+
 #  NOTES:
 #  Okay, I assumed you didn't have anything running on port 80.  If you do, look at the docker-compose.yml file and change 80:80 to whatever you prefer.
 #  Personally, I like 5555, 6666, 7777, etc...
