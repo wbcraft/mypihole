@@ -42,8 +42,9 @@ cd mypihole
 
 docker compose up -d
 
-#  If you want to update pihole:
+#  If you want to update pihole you need to add executable permissions to the file:
 #  chmod +x update_pihole.sh
+#  Then you can run the following command:
 ./update_pihole.sh
 
 
